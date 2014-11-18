@@ -1,10 +1,6 @@
 require 'sinatra'
 require 'httparty'
-require 'pry'
-require 'json'
 require 'dotenv'
-
-
 
 get '/' do
   Dotenv.load
