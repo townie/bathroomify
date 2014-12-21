@@ -8,3 +8,6 @@ get '/' do
   @status = (res["result"] == 1) ? "Open" : "Occupied"
   erb :status
 end
+
+get "/help" do
+end
